@@ -1,0 +1,183 @@
+{
+  "intents": [
+    {
+      "tag": "salam",
+      "patterns": [
+        "Hai",
+        "Hi",
+        "Halo",
+        "Apa Kabar",
+        "Selamat Pagi",
+        "Selamat Siang",
+        "Selamat Malam",
+        "Salam",
+        "Ping",
+        "P"
+      ],
+      "responses": [
+        "Halo, selamat datang di Iztar Game!",
+        "Hai, ada yang bisa saya bantu di Iztar Game?",
+        "Halo pemain Iztar, selamat datang!",
+        "Hai, bagaimana kabar Anda? Ada yang bisa saya bantu?"
+      ]
+    },
+    {
+      "tag": "bye",
+      "patterns": [
+        "Dadah",
+        "Selamat Tinggal",
+        "Dah",
+        "Daah",
+        "Semoga harimu menyenangkan",
+        "Ok makasih",
+        "Sampai Jumpa Lagi",
+        "Ok bye"
+      ],
+      "responses": [
+        "Sampai jumpa di Iztar Game, semoga harimu menyenangkan!",
+        "Kalau ada pertanyaan lain, jangan ragu untuk menghubungi saya lagi ya!",
+        "Terima kasih telah bermain di Iztar, sampai bertemu lagi!"
+      ]
+    },
+    {
+      "tag": "nama",
+      "patterns": [
+        "nama kamu siapa?",
+        "kamu siapa?",
+        "siapa sih ini?",
+        "bot ini siapa?",
+        "nama kamu apa?"
+      ],
+      "responses": [
+        "Nama saya Zipy, asisten resmi dari Iztar Game.",
+        "Halo, saya Zipy, siap membantu Anda di Iztar Game.",
+        "Kenalin, saya Zipy, bot asisten Iztar!"
+      ]
+    },
+    {
+      "tag": "info_game",
+      "patterns": [
+        "Apa itu Iztar Game?",
+        "Iztar game itu apa?",
+        "Ceritakan tentang Iztar Game",
+        "Game Iztar itu gimana sih?",
+        "Bisa jelaskan tentang Iztar Game?"
+      ],
+      "responses": [
+        "Iztar Game adalah game survival berbasis blockchain yang menawarkan mekanisme bermain gratis serta NFT pesawat luar angkasa yang unik. Anda dapat bertarung, bertahan, dan mengembangkan strategi untuk menang!",
+        "Iztar Game adalah game roguelike space survival yang didukung teknologi blockchain. Anda bisa membeli, menyewa, atau menggunakan pesawat luar angkasa NFT untuk bersaing dan mendapatkan hadiah."
+      ]
+    },
+    {
+      "tag": "marketplace",
+      "patterns": [
+        "Di mana saya bisa beli pesawat NFT?",
+        "Marketplace pesawat NFT ada di mana?",
+        "Bagaimana cara membeli pesawat NFT?",
+        "Pesawat NFT beli di mana?",
+        "Marketplace Iztar ada di mana?"
+      ],
+      "responses": [
+        "Anda bisa membeli pesawat NFT langsung di marketplace kami. Kunjungi marketplace Iztar untuk mendapatkan koleksi NFT terbaik!",
+        "Marketplace Iztar menyediakan pesawat luar angkasa NFT. Cek langsung di dalam game untuk lebih banyak pilihan!"
+      ]
+    },
+    {
+      "tag": "topup_token",
+      "patterns": [
+        "Bagaimana cara membeli token?",
+        "Cara top up token iztar gimana?",
+        "Saya ingin top up token, bagaimana caranya?",
+        "Top up Iztar token gimana?"
+      ],
+      "responses": [
+        "Untuk top up Iztar Token, silakan kunjungi platform exchange yang mendukung token kami seperti pancakeswap https://pancakeswap.finance/?outputCurrency=0x3D9A8D241b89AC72b83198CD1F419B7D0c72FAd0",
+        "Anda bisa membeli token Iztar melalui exchange resmi."
+      ]
+    },
+    {
+      "tag": "error_game",
+      "patterns": [
+        "Game saya error",
+        "Kenapa game saya tidak bisa dimainkan?",
+        "Ada error di game saya",
+        "Kenapa saya tidak bisa masuk game?",
+        "Error saat login, apa yang harus saya lakukan?"
+      ],
+      "responses": [
+        "Mohon pastikan koneksi internet Anda stabil dan coba restart game. Jika masih bermasalah, silakan hubungi tim dukungan kami.",
+        "Coba periksa koneksi internet Anda atau bersihkan cache aplikasi. Jika masih ada masalah, tim kami siap membantu."
+      ]
+    },
+    {
+      "tag": "event",
+      "patterns": [
+        "Ada event terbaru?",
+        "Apa event bulan ini?",
+        "Event di Iztar apa saja?",
+        "Ada event khusus nggak?",
+        "Event terbaru apa ya?"
+      ],
+      "responses": [
+        "Event terbaru: Kompetisi leaderboard dengan hadiah token Iztar! Jangan lewatkan kesempatan untuk memenangkan hadiah besar.",
+        "Cek event terbaru di game! Ada banyak hadiah menarik menunggu Anda."
+      ]
+    },
+    {
+      "tag": "support",
+      "patterns": [
+        "Bagaimana cara menghubungi support?",
+        "Tim support ada di mana?",
+        "Bisa minta bantuan support?",
+        "Saya butuh bantuan, kemana harus menghubungi?",
+        "Hubungi support gimana?"
+      ],
+      "responses": [
+        "Anda bisa menghubungi tim support kami melalui email support@iztar.com atau fitur live chat di dalam game.",
+        "Silakan kirim pertanyaan atau laporan Anda ke support@iztar.com, tim kami akan segera membantu Anda."
+      ]
+    },
+    {
+      "tag": "fitur",
+      "patterns": [
+        "Fitur di Iztar apa saja?",
+        "Apa kelebihan Iztar Game?",
+        "Fitur game ini apa?",
+        "Iztar punya fitur apa?",
+        "Fitur di game ini bagaimana?"
+      ],
+      "responses": [
+        "Iztar memiliki fitur survival, leaderboard kompetitif, marketplace NFT, dan mekanisme free-to-play yang memungkinkan Anda untuk langsung bermain tanpa biaya.",
+        "Fitur unggulan: NFT pesawat luar angkasa unik, kompetisi leaderboard, dan sistem staking token untuk penghasilan tambahan."
+      ]
+    },
+    {
+      "tag": "staking",
+      "patterns": [
+        "Bagaimana cara staking token?",
+        "Staking itu apa?",
+        "Apa keuntungan staking?",
+        "Cara staking di Iztar gimana?",
+        "Staking di Iztar apakah mudah?"
+      ],
+      "responses": [
+        "Staking di Iztar memungkinkan Anda mendapatkan hadiah tambahan dari token yang Anda miliki. Kunjungi menu staking di game untuk mulai.",
+        "Staking adalah cara untuk mengunci token Anda dan mendapatkan reward. Silakan cek fitur staking di dalam game untuk detailnya."
+      ]
+    },
+    {
+      "tag": "leaderboard",
+      "patterns": [
+        "Apa itu leaderboard di Iztar?",
+        "Leaderboard di Iztar apa manfaatnya?",
+        "Bagaimana cara masuk leaderboard?",
+        "Apa hadiah dari leaderboard?",
+        "Leaderboard itu buat apa?"
+      ],
+      "responses": [
+        "Leaderboard di Iztar adalah daftar pemain terbaik berdasarkan skor tertinggi. Pemain yang masuk leaderboard akan mendapatkan hadiah spesial!",
+        "Anda bisa bersaing di leaderboard dengan mengumpulkan skor tertinggi di event kompetisi. Hadiah menarik menunggu di akhir periode!"
+      ]
+    }
+  ]
+}
